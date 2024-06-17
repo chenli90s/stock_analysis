@@ -1,0 +1,33 @@
+.search{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    .input-search {
+        display: flex;
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+        width: 30vw;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+      background-color: #dddddd;
+      input{
+        height: 5vh;
+        flex: 1;
+        background-color: #dddddd;
+        border: 0;
+        outline: none;
+        box-sizing: border-box;
+      }
+      .search-icon{
+        &:hover{
+            cursor: pointer;
+        }
+      }
+    }
+}

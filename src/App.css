@@ -1,0 +1,7 @@
+#root{
+  height: 100vh;
+}
+
+.ant-tag:hover{
+  cursor: pointer;
+}
